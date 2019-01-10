@@ -1,0 +1,31 @@
+body {
+    width: 60%;
+    margin: auto;
+}
+.__user_list {
+    border-bottom: 1px solid #e1e4e8;
+    color: #6a737d;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    font-size: 12px;
+}
+.__user {
+    display: flex;
+    padding: 16px;
+    list-style: none;
+    border-top: 1px solid #eaecef;
+}
+.__avatar {
+    border-radius: 3px;
+    display: inline-block;
+    overflow: hidden;
+}
+.__user a {
+    font-size: 16px;
+    text-decoration: none;
+}
+.__user .__right_content {
+    display: flex;
+    flex-direction: column;
+}
